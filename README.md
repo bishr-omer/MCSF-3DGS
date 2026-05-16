@@ -10,8 +10,6 @@
 
 **A no-reference MVG-based diagnostic framework for structural quality assessment and forensics in 3D Gaussian Splatting scenes.**
 
-*Preliminary implementation | PhD Research | Concordia University*
-
 [Overview](#overview) • [Features](#features) • [Installation](#installation) • [Usage](#usage) • [Results](#results) • [Repository Structure](#repository-structure)
 
 </div>
@@ -131,6 +129,12 @@ Generates all 6 report figures into a `figures/` subfolder.
 | Color distortion | 45 | 0.715 | 0.746 | 0.494 |
 | **Gaussian noise** | **45** | **0.835** | **0.806** | **0.608** |
 
+![SRCC/PLCC Bar Chart](figures/fig1_srcc_plcc_bar.png)
+
+![Predicted vs Actual MOS](figures/fig2_scatter_all.png)
+
+![Feature Importance](figures/fig3_feature_importance.png)
+
 ### Forensics: Reference vs 25-View Distorted (Bottle Scene)
 
 | Metric | Reference | Distorted | Change |
@@ -141,6 +145,12 @@ Generates all 6 report figures into a `figures/` subfolder.
 | Total artifact rate | 9.72% | 9.77% | +0.5% |
 
 > The pairwise consistency score $C_{kj}$ is more sensitive to viewpoint-induced structural degradation than individual Mahalanobis scoring, detecting discontinuities invisible to standard rendering metrics.
+
+![Anomaly Score Distribution](figures/fig4_anomaly_distribution.png)
+
+![Consistency Score Distribution](figures/fig5_consistency_distribution.png)
+
+![Forensics Radar Chart](figures/fig6_forensics_radar.png)
 
 ---
 
