@@ -1,0 +1,10 @@
+3DGS_QA_Database/
+data/
+venv/
+__pycache__/
+*.pyc
+figures/
+*.png
+*.ply
+*.xlsx
+*.csv
