@@ -197,11 +197,8 @@ MCSF-3DGS/
 ## Author
 
 **Bishr Omer**
-MSc, Northwestern Polytechnical University (2026)
-PhD Applicant, Concordia University (Student ID: 40366261)
+MSc, Northwestern Polytechnical University
 [github.com/bishr-omer](https://github.com/bishr-omer)
-
-> *This repository documents preliminary Phase 1 implementation of the MCSF PhD research proposal submitted to Prof. Xinxin Zuo, Concordia University, April 2026.*
 
 ---
 
