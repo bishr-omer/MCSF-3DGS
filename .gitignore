@@ -3,8 +3,6 @@ data/
 venv/
 __pycache__/
 *.pyc
-figures/
-*.png
 *.ply
 *.xlsx
 *.csv
