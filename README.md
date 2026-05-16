@@ -29,8 +29,8 @@ This repository implements the **MCSF framework**: an MVG-based diagnostic engin
 ## Features
 
 ### 🔬 Forensics Engine
-- **Equation 3** — Per-primitive Mahalanobis anomaly score $A_k$
-- **Equation 4** — Pairwise covariance consistency score $C_{kj}$
+- **Equation 1** — Per-primitive Mahalanobis anomaly score $A_k$
+- **Equation 2** — Pairwise covariance consistency score $C_{kj}$
 - Floater detection and structural collapse identification
 - Reference vs distorted scene comparison
 
@@ -156,11 +156,11 @@ Generates all 6 report figures into a `figures/` subfolder.
 
 ## Core Equations
 
-**Mahalanobis Anomaly Score (Equation 3):**
+**Mahalanobis Anomaly Score (Equation 1):**
 
 $$A_k = (\mathbf{x}_k - \hat{\mu})^\top \hat{\Sigma}^{-1} (\mathbf{x}_k - \hat{\mu})$$
 
-**Pairwise Covariance Consistency Score (Equation 4):**
+**Pairwise Covariance Consistency Score (Equation 2):**
 
 $$C_{kj} = \left\| \frac{\Sigma_k}{\|\Sigma_k\|_F} - \frac{\Sigma_j}{\|\Sigma_j\|_F} \right\|_F$$
 
