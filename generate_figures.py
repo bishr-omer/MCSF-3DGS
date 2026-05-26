@@ -1,18 +1,5 @@
 """
 MCASF Figure Generator
-=======================
-Generates all figures for the technical report.
-Run: python generate_figures.py data\model data\3DGS_MOS.csv
-
-Figures produced:
-  fig1_srcc_plcc_bar.png         - SRCC/PLCC per distortion type
-  fig2_scatter_all.png           - Predicted vs actual MOS
-  fig3_feature_importance.png    - Top 15 XGBoost features
-  fig4_anomaly_distribution.png  - A_k histogram ref vs distorted
-  fig5_consistency_distribution.png - C_kj histogram ref vs distorted
-  fig6_forensics_radar.png       - Radar chart ref vs distorted
-
-Author: Bishr Omer
 """
 
 import numpy as np
