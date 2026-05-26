@@ -10,9 +10,6 @@ These are the two core forensic metrics for detecting floaters and
 structural collapse in 3DGS scenes without any ground-truth reference.
 
 Author: Bishr Omer
-Proposal: Multivariate Covariance-Based Structural Forensics and Repair
-          in 3D Gaussian Splatting
-Supervisor target: Prof. Xinxin Zuo, Concordia University
 """
 
 import numpy as np
@@ -81,7 +78,7 @@ def extract_primitive_descriptors(attrs, k_neighbors=8):
 
 
 # ---------------------------------------------------------------------------
-# 2. REFERENCE MVG FITTING (Proposal Section 3.1, Equations 1-2)
+# 2. REFERENCE MVG FITTING (Equations 1-2)
 # ---------------------------------------------------------------------------
 
 def fit_reference_mvg(X_desc, attrs, opacity_threshold=0.7,
@@ -141,7 +138,7 @@ def fit_reference_mvg(X_desc, attrs, opacity_threshold=0.7,
 
 
 # ---------------------------------------------------------------------------
-# 3. MAHALANOBIS ANOMALY SCORE (Proposal Equation 3)
+# 3. MAHALANOBIS ANOMALY SCORE ( Equation 2)
 # ---------------------------------------------------------------------------
 
 def compute_anomaly_scores(X_desc, mu_hat, sigma_hat):
