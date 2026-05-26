@@ -1,13 +1,10 @@
 """
 MCASF Forensics Engine
 ======================
-Implements the core diagnostic framework from the PhD proposal:
-
-  Equation (3): Per-primitive Mahalanobis anomaly score A_k
-  Equation (4): Pairwise covariance consistency score C_kj
+Implements the core diagnostic framework:
 
 These are the two core forensic metrics for detecting floaters and
-structural collapse in 3DGS scenes without any ground-truth reference.
+structural collapse in 3DGS scenes without ground-truth reference.
 
 Author: Bishr Omer
 """
